@@ -3,12 +3,11 @@
 ## project link
 [Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
-# Solution code
+# Solution Code
 
-## project 1
+## 1- Color Switcher
 
 ```javascript
-console.log("hitesh")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -32,11 +31,10 @@ buttons.forEach(function (button) {
     
   });
 });
-
-
 ```
 
-## project 2 solution
+
+## 2- BMI Calculator
 
 ```javascript
 const form = document.querySelector('form');
@@ -60,11 +58,10 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
-
-
 ```
 
-## project 3 solution code
+
+## 3- Digital Clock
 
 ```javascript
 const clock = document.getElementById('clock');
@@ -75,12 +72,10 @@ setInterval(function () {
   // console.log(date.toLocaleTimeString());
   clock.innerHTML = date.toLocaleTimeString();
 }, 1000);
-
-
 ```
 
-## project 4 solution
 
+## 4- Guess The Number
 
 ```javascript
 
@@ -175,8 +170,6 @@ function newGame() {
     playGame = true;
   });
 }
-
-
 ```
 
 
